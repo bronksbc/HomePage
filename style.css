@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    /*box-sizing: border-box;*/
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #005AD5;
+    color: white;
+    height: 10vh;
+}
+
+.cabeçalho-nav{
+    display: flex;
+    gap: 30px;
+}
+
+.cabeçalho-titulo{
+    font-family: 'Black Ops One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.cabeçalho-nav a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+
+.cabeçalho-item:hover{
+    background-color: rgb(255, 255, 92);
+}
+
+
+
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10vh;
+    height: 50vh;
+    background-color: #005AD5;
+    color: white;
+}
+
+.banner-section-div > h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43.4211px
+}
+
+.banner-section-div > p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5895px;
+}
+
+.banner-section-div > button{
+    background-color: white;
+    border: none; /* remove a borda do botão */
+    color: #005AD5; /* define a cor do texto do botão */
+    padding: 1vh 4vh; /* define o espaço interno do botão (10px superior/inferior e 20px esquerda/direita) */
+    text-align: center; /* centraliza o texto no botão */
+    text-decoration: none; /* remove o sublinhado padrão do texto */
+    display: inline-block; /* define o tipo de exibição do elemento como "bloco inline" */
+    font-size: 1rem; /* define o tamanho da fonte do texto do botão */
+    margin: 3vh 2vh; /* define as margens externas do botão (4px superior/inferior e 2px esquerda/direita) */
+    border-radius: 10px; /* define o raio de curvatura das bordas do botão (valor de 25px cria um botão com bordas arredondadas) */
+    cursor: pointer; /* define o cursor do mouse como "mão" quando o usuário passa o mouse sobre o botão */   
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #005AD5;
+
+}
+
+.banner-section-div > button:hover{
+    background-color: rgb(255, 255, 92);
+}
+
+.banner-imagem{
+    width: 920px;
+
+}
